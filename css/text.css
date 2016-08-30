@@ -1,0 +1,183 @@
+
+body {
+	background: #C5DEF5;
+	}	
+* {
+	margin: 0px;
+	padding: 0px;
+	}
+header, footer, section, nav {
+	display: block;
+	}
+.ip{
+	margin: 0px auto;
+	width: 980px;
+	}
+#logo {
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-left: 20px;
+	float:left;
+	width: 400px;}
+#judul {
+	background-image: url(../gambar/bg.jpg);
+	height: 155px;
+	margin 10px auto -50px auto;
+	padding: 3px 0px 10px 0px;
+	border-radius: 0px 0px 0 0;
+	box-shadow: 0 0 10px rgb(0,0,0) inset;
+	}
+#judul h1 {
+	margin-left: 20px;
+	margin-top: 20px;
+	font-size: 40px;
+	line-height: 38px;
+	font-weight: 500px;
+	color: #0094DA;
+	}
+#judul h2 {
+	margin-left: 20px;
+	margin-top: 20px;
+	font-size: 24px;
+	font-weight: 300px;
+	color: black;
+	}
+	
+	
+nav ul{
+	padding-bottom: 0px;
+	background-image: url(../gambar/kk.png);
+	box-shadow: 0 0 10px rgb(0,0,0) inset;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	padding: -20;
+	width: 980px;	
+	}
+nav ul:after{
+	content: "";
+	clear: both;
+	display: block;
+	border-radius: 10px;
+	}
+nav ul li {
+	float: left;}
+nav ul li:hover {
+	box-shadow: 0 0 10px rgb(0,0,0) inset;
+	background: #0094DA;
+	border-radius: 10px;
+	}
+nav ul li a{
+	display: block;	
+	color: black;
+	padding: 15px 25px;
+	text-decoration: none;
+	}
+nav ul ul {
+	display: none;
+	background: #0094DA;
+	border-radius: 10px;
+	padding: 0px;
+	position: absolute;
+	top: 100%;
+	width: 150px;
+	}
+nav ul li:hover > ul {
+	display: block; 
+	}
+nav ul ul li {
+	float: none;
+	border-top: 1px solid: #000000;
+	position: relative;
+	}
+
+nav ul ul li a {
+	padding: 10px 20px;
+	color: black;
+	}
+nav ul ul li a:hover {
+	border-radius: 10px;
+	background: #282A2B; 
+	
+	}
+nav ul ul ul {
+	position: absolute;
+	left: 100%;
+	top: 0;
+	}
+	
+	
+	
+#konten {
+	background: #C5DEF5;
+	padding-right: 0px;
+	box-shadow: 0 0 10px rgb(0,0,0) inset;
+	float: left;
+	width: 699px;
+	}
+#aside {
+	background-image: url(../gambar/k.jpg);
+	width: 261px;
+	padding-left: 20px;
+	height: 100% auto;
+	float: right;
+	box-shadow: 0 0 10px rgb(0,0,0) inset;
+	}
+#ass {
+	font-size: 30px;
+	padding-left: 0px;
+	}
+#as {
+	padding-left: 30px;
+	}
+#ti {
+	margin-bottom: 15px;
+	}
+
+	
+	
+	
+#foter {
+	background-image: url(../gambar/bt.png);
+	clear: both;
+	padding-top: 10px;
+	border-radius: 0 0 10px 10px;
+	box-shadow: 0 0 10px rgb(0,0,0) inset;
+	padding-bottom: 10px;
+	width: 980px;
+	text-align: center;
+	}
+#gambar {
+	padding-top: 10px;
+	padding-bottom: 25px;
+	padding-left: 10px;
+	}
+#lii {
+	padding-left: 25px;
+	width: 290px;
+	padding-bottom: 10px;
+	}
+
+p {
+	margin-bottom: 20px;
+	}
+#doc {
+	padding-left: 5px;
+	}
+#nama {
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-bottom: 90px;
+	}
+#alamat {
+	padding-left: 10px;
+	font-size: 15px;
+	}
+p {padding-left: 20px;
+	}
+#iss {
+	padding-left: 0px;
+	}s
+#isss {
+	padding-left: 20px;
+	}
